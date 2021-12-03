@@ -1,8 +1,16 @@
 import React from "react";
-import './main.css'
+import './add.css'
 
-export default function Main(){
+export default function Add(){
     return(
+        <>
+        <header >
+            <div className="text">
+                <h1>Autumn Giveaways for FREE</h1>
+                <p>Participate in Autumn Giveaway and treat yourself <br/> to nice and refreshing cosmetics for free</p>
+            </div>
+            <img src="img/banner.svg" alt="cream"/>
+        </header>
         <div className="main-cont">
             <section className="one-block">
                 <div className="img-block">
@@ -47,10 +55,11 @@ export default function Main(){
                     <li>Slips on easily, absorbs quickly.</li>
                     <li> Helps strengthen skin’s own moisture barrier so more moisture stays in.<br/> Skin that holds onto moisture has a youthful-looking glow.</li>
                 </ul>
-                <span>Read more...</span>
+                <span className="none">Read more...</span>
+
                 <div className="more">
-                    <p className="p">Key Ingredients</p>
-                    <p>Sunflower Seed Cake, Barley Extract and Cucumber<br/>Fruit Extract help strengthen skin’s barrier, improve<br/> its resiliency, and balance and retain skin’s moisture<br/> levels. Hyaluronic acid acts as a natural moisture<br/> magnet/humectant.</p>
+                    <p className="pK">Key Ingredients</p>
+                    <p className="p1">Sunflower Seed Cake, Barley Extract and Cucumber<br/>Fruit Extract help strengthen skin’s barrier, improve<br/> its resiliency, and balance and retain skin’s moisture<br/> levels. Hyaluronic acid acts as a natural moisture<br/> magnet/humectant.</p>
                     <hr></hr>
                     <div className="money-box">
                         <p className="p1"><s>US$25.89</s></p>
@@ -59,6 +68,7 @@ export default function Main(){
                     <button className="btn">SELECT</button>
                     <img src="img/amazon.svg" className="amazon"/>
                 </div>
+
             </section>
             <section className="three-block">
                 <h1>How does it work?</h1>
@@ -100,5 +110,25 @@ export default function Main(){
                 </div>
             </section>
         </div>
+        <section className="footer">
+                <div className="one">
+                    <p className="bold">Privacy and Terms</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms of use</p>
+                </div>
+                <div className="two">
+                    <p className="bold">Need Help?</p>
+                    <p>mail@gmail.com</p>
+                </div>
+                <div className="three">
+                    <p className="bold">Social</p>
+                    <p>Facebook</p>
+                    <p>Instagram</p>
+                </div>
+            </section>
+            <section className="footer2">
+                <p>© All Rights Reserved</p>
+            </section>
+        </>
     )
 }

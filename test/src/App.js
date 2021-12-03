@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header/Header'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
+import Add from './Addmore/Add'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <Main/>
       <Footer/>
+      {/* <Add/> ////для доп.блока */}
     </div>
   );
 }
